@@ -11,19 +11,36 @@
 
 <body>
   <h1>Formulario</h1>
-  <form action="">
+  <form action="GET">
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <label>
+        Nome:
+        <input type="text" id="nome" name="nome">
+      </label>
 
-    <label>
-      Nome:
-      <input type="text" id="nome" name="nome">
-    </label>
+      <br><br>
 
-    <br><br>
+      <label>
+        Email:
+        <input type="email" name="email" id="email">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Cadastro da Empresa</legend>
 
-    <label>
-      Email:
-      <input type="email" name="email" id="email">
-    </label>
+      <label>
+        Nome da empresa:
+        <input type="text">
+      </label>
+      <br><br>
+      <label for="">
+        CNPJ Da Empresa:
+        <input type="number">
+      </label>
+    </fieldset>
+    <button>Cadastrar</button>
+
   </form>
 </body>
 
