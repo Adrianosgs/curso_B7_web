@@ -2,14 +2,21 @@
   display: flex;
   background: lightgreen;
   padding: 20px;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-wrap: row wrap;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+  height: 500px;
 }
 
 .container div {
-  background: lightgrey;
+  background: purple;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
   border: 2px solid black;
   padding: 10px;
   margin: 10px;
   width: 100px;
+  height: 100px;
 }
