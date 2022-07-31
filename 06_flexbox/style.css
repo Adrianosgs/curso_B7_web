@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  background: lightgreen;
+  padding: 20px;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.container div {
+  background: lightgrey;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+}
