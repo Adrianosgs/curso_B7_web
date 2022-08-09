@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.botao {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: blueviolet;
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  border: 5px solid lightblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background: lightslategray;
+}
